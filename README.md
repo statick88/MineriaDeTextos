@@ -13,14 +13,14 @@ Este proyecto se centra en la minería de textos utilizando diversas técnicas d
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
-   ```
+git clone https://github.com/statick88/MineriaDeTextos.git
+cd MineriaDeTextos
+```
 2. Crea un entorno virtual y activa el entorno:
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+python -m venv env
+source env/bin/activate
 ```
 
 Instala las dependencias:
@@ -31,15 +31,7 @@ pip install -r requirements.txt
 
 # Uso
 
-1. Asegúrate de haber descargado los datos necesarios para NLTK:
-
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-```
-
-2. Ejecuta el script principal:
+1. Ejecuta el script principal:
 
 ```bash
 python main.py
@@ -48,9 +40,6 @@ python main.py
 # Estructura del Proyecto
 
 ``` textplain
-
-```
-.
 ├── .ipynb_checkpoints/
 ├── env/
 ├── .gitignore
@@ -61,6 +50,5 @@ python main.py
 └── requirements.txt
 ```
 
-
-Licencia
+# Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
